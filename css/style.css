@@ -1,0 +1,572 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f9f9fb;
+  position: relative;
+}
+.grey-top {
+  position: absolute;
+  top: 0;
+  background-color: #212429;
+  width: 100%;
+  height: 345px;
+}
+.wrapper {
+  width: 1530px;
+  margin: 0 auto;
+}
+header {
+  height: 55px;
+  color: white;
+  position: relative;
+}
+header > div {
+  display: inline-block;
+}
+.hamburger-container {
+  width: 62px;
+  height: inherit;
+  border-left: 0.5px solid #3c3c3c;
+  border-right: 0.5px solid #3c3c3c;
+
+  position: relative;
+}
+header a,
+.slider a {
+  color: white;
+  text-decoration: none;
+}
+header a:hover,
+header a:active,
+.slider a:hover,
+.slider a:active {
+  text-decoration: none;
+  color: #999;
+}
+header a, .slider a, .news-signup a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo a {
+  margin-left: 33px;
+  margin-top: 2px;
+}
+.logo p {
+  font-family: 'Hind SemiBold', sans-serif;
+  font-size: 22px;
+  letter-spacing: 5px;
+  display: inline-block;
+  margin-left: 3px;
+  line-height: 0;
+}
+.logo a:hover,
+.logo a:active {
+  color: white;
+}
+.socials {
+  margin-left: 70%;
+  height: 55px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  border-left: 0.5px solid #3c3c3c;
+}
+.socials-container {
+  padding: 0 25px;
+  height: inherit;
+  border-right: 0.5px solid #3c3c3c;
+  position: relative;
+  display: inline-block;
+}
+.slider {
+  position: relative;
+  height: 581px;
+}
+h1 {
+  font-family: 'Hind', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 5.5px;
+  line-height: 1.25;
+  text-align: left;
+  color: white;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.44);
+  width: 500px;
+  height: 90px;
+  display: inline-block;
+  margin-left: 98px;
+  position: relative;
+  bottom: 342px;
+}
+h3 {
+  font-family: 'Hind SemiBold', sans-serif;
+  font-size: 18px;
+  letter-spacing: 3.6px;
+  line-height: 1.333;
+  color: white;
+  margin-left: 100px;
+  position: relative;
+  bottom: 357px;
+  width: 140px;
+}
+.slider p {
+  font-size: 14px;
+  font-family: 'Hind SemiBold', sans-serif;;
+  color: rgb(255, 255, 255);
+  line-height: 1.714;
+  letter-spacing: 3px;
+  display: inline-block;
+  width: 170px;
+}
+.slider a {
+  font-size: 24px;
+  width: 35px;
+  line-height: 0.857;
+  margin: 0 10px;
+  position: static;
+}
+.slider .slider-headline {
+  margin: 0 0px;
+}
+.slider .slider-headline:hover {
+  text-decoration: underline;
+}
+.vertical-text {
+  position: absolute;
+  right: -65px;
+  top: 44%;
+  width: 275px;
+  -moz-transform: matrix( 0,-1,1,0,0,0);
+  -webkit-transform: matrix( 0,-1,1,0,0,0);
+  -ms-transform: matrix( 0,-1,1,0,0,0);
+}
+.slider-squares {
+  height: 40px;
+  width: 68px;
+  margin: 0 auto;
+}
+.slider-squares div {
+  width: 6px;
+  height: 6px;
+  border: 1px solid white;
+  display: inline-block;
+}
+.slider-squares .active-square {
+  background-color: #999;
+}
+.slider-squares a {
+  margin: 0px 3px;
+  line-height: 40px;
+  width: 8px;
+  height: 8px;
+}
+.news-signup {
+  width: 100%;
+  height: 100px;
+  background-color: #f7f7f7;
+  position: relative;
+  margin-bottom: 60px;
+}
+.news-signup form {
+  height: 56px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.news-signup p {
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: rgb(33, 33, 33);
+  line-height: 1.4;
+  display: inline-block;
+  width: 180px;
+  margin-left: 30px;
+  margin-right: 45px;
+}
+.news-signup input {
+  width: 450px;
+  height: 48px;
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: "Hind";
+  font-weight: 300;
+  color: #999;
+  margin-right: 26px;
+  position: relative;
+  bottom: 16px;
+}
+.news-signup button {
+  width: 280px;
+  height: 48px;
+  background-color: #212121;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-align: center;
+  font-family: "Hind Medium";
+  color: white;
+  position: relative;
+  bottom: 17px;
+  cursor: pointer;
+}
+.content {
+  text-align: center;
+  margin-bottom: 18px;
+  height: 1600px;
+}
+.content-column {
+  width: 360px;
+  display: inline-block;
+  margin-right: 25px;
+}
+.content-column:last-child {
+  margin-right: 0;
+  position: relative;
+  top: 17px;
+}
+.content-column:nth-child(3) {
+  position: relative;
+  top: -275px;
+}
+.content-column:nth-child(2) {
+  position: relative;
+  top: 10px;
+}
+article {
+  margin-bottom: 30px;
+  padding: 0 26px;
+  background-color: #fff;
+  border: 0.5px solid rgba(221, 221, 221, 0.15);
+  box-shadow: 0px 0px 1px 0px rgba(232, 232, 232, 0.21);
+}
+.reversed-color {
+  background-color: #212429;
+  border: none;
+}
+.image-bg {
+  background-color: transparent;
+  background-image: url('../img/bg.png');
+  border: none;
+}
+article:hover {
+  box-shadow: 0px 3px 25.52px 3.48px rgba(112, 112, 112, 0.49);
+}
+article .heading-icon {
+  width: 40px;
+  height: 35px;
+  background-color: #212121;
+  color: white;
+  display: inline-block;
+  margin: 0 auto 20px auto;
+  position: relative;
+  bottom: 17.5px;
+  box-shadow: 0px 1px 3px 0px rgba(213, 213, 213, 0.75);
+  z-index: 2;
+  fill: white;
+}
+.reversed-color .heading-icon {
+  background-color: white;
+  color: #212429;
+}
+.reversed-color a {
+  text-decoration: underline;
+  color: white;
+}
+.reversed-color a p{
+  padding-bottom: 50px;
+}
+article .blank {
+  width: 0;
+  height: 0;
+  margin-bottom: 30px;
+}
+article .heading-icon i {
+  padding-top: 25%;
+}
+article .heading-icon svg {
+  padding-top: 13%;
+}
+h2 {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: #212121;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 40px;
+  letter-spacing: 0.9px;
+}
+.article-detail {
+  font-size: 14px;
+  font-family: "Hind Regular";
+  color: #999;
+  text-transform: uppercase;
+  line-height: 1.714;
+  letter-spacing: 1px;
+}
+.article-detail:last-of-type {
+  margin-bottom: 17px;
+}
+.article-text {
+  font-size: 15px;
+  font-family: "Hind";
+  font-weight: 300;
+  color: #464646;
+  line-height: 1.867;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 17px;
+  margin-bottom: 31px;
+}
+article .read-more-button {
+  height: 30px;
+  width: 128px;
+  background-color: transparent;
+  border-left: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+  border-top: none;
+  border-bottom: none;
+  font-size: 14px;
+  font-family: "Hind";
+  font-weight: 500;
+  color: #212121;
+  text-transform: uppercase;
+  line-height: 1.714;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+article .horizontal-border {
+  border: none;
+  color: #999;
+}
+.line {
+  width: 25px;
+  height: 1px;
+  background-color: #d7d7d7;
+  margin: 3px 0 3px 51px;
+}
+article .read-more-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+article footer {
+  border-top: 1px solid rgba(221, 221, 221, 0.25);
+  height: 40px;
+  width: 360px;
+  position: relative;
+  right: 27px;
+  padding-top: 20px;
+}
+article footer > i {
+  color: #464646;
+  margin-right: 8px;
+}
+article footer a i {
+  margin-left: 15px;
+}
+article footer a {
+  color: #464646;
+}
+article footer a:hover {
+  color: #777;
+}
+article .article-comment {
+  font-size: 14px;
+  font-family: "Hind Regular";
+  color: #999;
+  text-transform: uppercase;
+  line-height: 1.714;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-right: 20px;
+}
+article .article-comment:hover {
+  text-decoration: underline;
+}
+.white-space {
+  height: 510px;
+}
+.black-space {
+  height: 290px;
+}
+.image-placeholder {
+  height: 254px;
+  background-color: #f4f4f4;
+  width: 360px;
+  position: relative;
+  right: 27px;
+  bottom: 1px;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.15);
+  padding-top: 9px;
+}
+.video-placeholder {
+  width: 361px;
+  position: relative;
+  right: 27px;
+  bottom: 57px;
+  z-index: 1;
+}
+.audio-placeholder {
+  height: 136px;
+  width: 136px;
+  background-color: #999;
+  border-radius: 68px;
+  display: inline-block;
+  margin-bottom: 160px;
+}
+.video-placeholder:hover,
+.audio-placeholder:hover {
+  cursor: pointer;
+}
+.gallery-miniature {
+  width: 362px;
+  height: 256px;
+  position: relative;
+  right: 27px;
+}
+.gallery-pic-placeholder {
+  width: 178px;
+  height: 128px;
+  border-bottom: 1px solid #fafafa;
+  display: inline-block;
+}
+.gallery-pic-placeholder:nth-of-type(even) {
+  position: relative;
+  right: 5px;
+  border-left: 1px solid #fafafa;
+}
+.gallery-pic-placeholder:nth-of-type(3) {
+  position: relative;
+  bottom: 5px;
+}
+.gallery-pic-placeholder:nth-of-type(4) {
+  bottom: 5px;
+}
+.gallery-pic-placeholder:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.quote {
+  font-size: 17px;
+  font-family: "Hind";
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: white;
+  line-height: 1.647;
+  text-align: center;
+}
+.author {
+  font-size: 14px;
+  font-family: "Hind";
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  line-height: 80px;
+  text-align: center;
+}
+body > footer {
+  background-color: #212429;
+}
+body > footer section {
+  width: 360px;
+  display: inline-block;
+  color: #f9f9fb;
+  margin: 50px 12.5px 33px 12.5px;
+}
+body > footer section:first-of-type {
+  margin-left: 0;
+}
+body > footer section:last-of-type {
+  margin-right: 0;
+}
+body > footer h4 {
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb(249, 249, 251);
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1.75;
+  text-align: left;
+  margin-bottom: 25px;
+}
+body > footer p {
+  font-size: 15px;
+  font-family: "Hind";
+  font-weight: 300;
+  letter-spacing: 1.45px;
+  color: rgb(249, 249, 251);
+  line-height: 1.867;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.tweets {
+  position: relative;
+  bottom: 25px;
+}
+.tweet {
+  margin-bottom: 15px;
+}
+.tweet p:first-child {
+  font-size: 14px;
+  font-family: "Hind";
+  font-weight: 300;
+  color: rgb(249, 249, 251);
+  line-height: 2;
+  text-align: left;
+}
+.tweet p:last-child {
+  margin-left: 22px;
+}
+.tweet:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.instagram {
+  position: relative;
+  top: 4px;
+}
+.insta {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.comments p:nth-of-type(even):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.comments div {
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-style: solid;
+  opacity: 0.4;
+  margin: 19px 0;
+}
+.down-bar {
+  background-color: rgb(23, 25, 28);
+  height: 42px;
+}
+.down-bar p {
+  font-size: 14px;
+  font-family: "Hind";
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  line-height: 42px;
+  text-align: center;
+}
+.down-bar a {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
+.down-bar a:hover{
+  text-decoration: underline;
+}
